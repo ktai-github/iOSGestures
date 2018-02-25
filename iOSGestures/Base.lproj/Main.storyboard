@@ -23,6 +23,7 @@
                         <segue destination="MdY-Ss-WmV" kind="relationship" relationship="viewControllers" id="iWx-Rp-Nk3"/>
                         <segue destination="g95-N0-a6n" kind="relationship" relationship="viewControllers" id="8fE-3y-irc"/>
                         <segue destination="mtq-Ba-1iI" kind="relationship" relationship="viewControllers" id="KLc-gT-9XU"/>
+                        <segue destination="Ukw-jt-ea5" kind="relationship" relationship="viewControllers" id="sue-Qe-7j7"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9YI-72-yCb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -93,10 +94,51 @@
             </objects>
             <point key="canvasLocation" x="-278" y="1355"/>
         </scene>
+        <!--Swipe-->
+        <scene sceneID="24t-If-9cF">
+            <objects>
+                <viewController id="Ukw-jt-ea5" userLabel="Swipe" customClass="SwipeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nVq-Ff-lZd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAr-H1-Ab2">
+                                <rect key="frame" x="0.0" y="234" width="320" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zEy-As-V4Z" userLabel="View Brown">
+                                <rect key="frame" x="0.0" y="234" width="320" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aQL-bp-JLZ" userLabel="View White">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="quP-XV-cW4"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Swipe" image="item4" id="0lP-J2-UEh" userLabel="Swipe"/>
+                    <connections>
+                        <outlet property="viewBrown" destination="zEy-As-V4Z" id="f61-5J-idi"/>
+                        <outlet property="viewGreen" destination="rAr-H1-Ab2" id="37K-fl-PYM"/>
+                        <outlet property="viewWhite" destination="aQL-bp-JLZ" id="tfl-h4-mWX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ksU-t9-dQo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1076.25" y="1353.1690140845071"/>
+        </scene>
     </scenes>
     <resources>
         <image name="item1" width="30" height="30"/>
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
+        <image name="item4" width="30" height="30"/>
     </resources>
 </document>
