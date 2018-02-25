@@ -38,8 +38,13 @@
 //  UIColor *purpleColor = [UIColor purpleColor];
 //  UIColor *orangeColor = [UIColor orangeColor];
 //  NSLog(@"%@", sender.view.backgroundColor);
-  sender.view.backgroundColor = (sender.view.backgroundColor == [UIColor orangeColor]) ? [UIColor purpleColor] : [UIColor orangeColor];
+  
+  //this works!
+//  sender.view.backgroundColor = (sender.view.backgroundColor == [UIColor orangeColor]) ? [UIColor purpleColor] : [UIColor orangeColor];
 
+  sender.view.backgroundColor =
+  [sender.view.backgroundColor isEqual:[UIColor orangeColor]] ?
+  [UIColor purpleColor] : [UIColor orangeColor];
 //  sender.view.backgroundColor = [UIColor purpleColor];
   
 //  if (sender.view.backgroundColor == [UIColor purpleColor]) {
