@@ -18,6 +18,6 @@
 
 @property (weak, nonatomic) IBOutlet UIView *viewBrown;
 
-@property (weak, nonatomic) IBOutlet UIView *viewGreen;
+//@property (weak, nonatomic) IBOutlet UIView *viewGreen;
 
 @end

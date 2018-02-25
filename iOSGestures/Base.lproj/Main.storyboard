@@ -24,6 +24,7 @@
                         <segue destination="g95-N0-a6n" kind="relationship" relationship="viewControllers" id="8fE-3y-irc"/>
                         <segue destination="mtq-Ba-1iI" kind="relationship" relationship="viewControllers" id="KLc-gT-9XU"/>
                         <segue destination="Ukw-jt-ea5" kind="relationship" relationship="viewControllers" id="sue-Qe-7j7"/>
+                        <segue destination="h2D-zj-8qA" kind="relationship" relationship="viewControllers" id="bdF-gz-YYW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9YI-72-yCb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -78,6 +79,22 @@
             </objects>
             <point key="canvasLocation" x="-276" y="559"/>
         </scene>
+        <!--Rotation-->
+        <scene sceneID="DVN-9w-XlR">
+            <objects>
+                <viewController id="h2D-zj-8qA" userLabel="Rotation" customClass="RotationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cFc-tP-hDD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="c0u-Z3-TrO"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rotation" image="item5" id="F69-vM-8LN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zcT-qP-wsv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="604" y="127"/>
+        </scene>
         <!--Pinch-->
         <scene sceneID="Sei-lr-gFA">
             <objects>
@@ -102,11 +119,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rAr-H1-Ab2">
-                                <rect key="frame" x="0.0" y="234" width="320" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zEy-As-V4Z" userLabel="View Brown">
                                 <rect key="frame" x="0.0" y="234" width="320" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -126,7 +138,6 @@
                     <tabBarItem key="tabBarItem" title="Swipe" image="item4" id="0lP-J2-UEh" userLabel="Swipe"/>
                     <connections>
                         <outlet property="viewBrown" destination="zEy-As-V4Z" id="f61-5J-idi"/>
-                        <outlet property="viewGreen" destination="rAr-H1-Ab2" id="37K-fl-PYM"/>
                         <outlet property="viewWhite" destination="aQL-bp-JLZ" id="tfl-h4-mWX"/>
                     </connections>
                 </viewController>
@@ -140,5 +151,6 @@
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
+        <image name="item5" width="30" height="30"/>
     </resources>
 </document>

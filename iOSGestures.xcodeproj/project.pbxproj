@@ -16,6 +16,7 @@
 		2CD79870204216360078786D /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD7986F204216360078786D /* TapViewController.m */; };
 		2CD79873204241720078786D /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD79872204241720078786D /* PinchViewController.m */; };
 		2CD79876204256610078786D /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD79875204256610078786D /* SwipeViewController.m */; };
+		2CD798792042B3840078786D /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD798782042B3840078786D /* RotationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		2CD79872204241720078786D /* PinchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
 		2CD79874204256600078786D /* SwipeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
 		2CD79875204256610078786D /* SwipeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		2CD798772042B3840078786D /* RotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		2CD798782042B3840078786D /* RotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				2CD79872204241720078786D /* PinchViewController.m */,
 				2CD79874204256600078786D /* SwipeViewController.h */,
 				2CD79875204256610078786D /* SwipeViewController.m */,
+				2CD798772042B3840078786D /* RotationViewController.h */,
+				2CD798782042B3840078786D /* RotationViewController.m */,
 				2C4B50BA203FCCE30079A7CF /* Main.storyboard */,
 				2C4B50BD203FCCE30079A7CF /* Assets.xcassets */,
 				2C4B50B4203FCCE30079A7CF /* AppDelegate.h */,
@@ -160,6 +165,7 @@
 				2CD7986D204215D00078786D /* PanViewController.m in Sources */,
 				2C4B50C4203FCCE40079A7CF /* main.m in Sources */,
 				2CD79873204241720078786D /* PinchViewController.m in Sources */,
+				2CD798792042B3840078786D /* RotationViewController.m in Sources */,
 				2CD79876204256610078786D /* SwipeViewController.m in Sources */,
 				2CD79870204216360078786D /* TapViewController.m in Sources */,
 				2C4B50B6203FCCE30079A7CF /* AppDelegate.m in Sources */,
