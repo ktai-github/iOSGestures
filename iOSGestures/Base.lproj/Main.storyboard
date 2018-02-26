@@ -25,11 +25,28 @@
                         <segue destination="mtq-Ba-1iI" kind="relationship" relationship="viewControllers" id="KLc-gT-9XU"/>
                         <segue destination="Ukw-jt-ea5" kind="relationship" relationship="viewControllers" id="sue-Qe-7j7"/>
                         <segue destination="h2D-zj-8qA" kind="relationship" relationship="viewControllers" id="bdF-gz-YYW"/>
+                        <segue destination="co3-qi-dSm" kind="relationship" relationship="viewControllers" id="vjv-UQ-u1L"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9YI-72-yCb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1076" y="215"/>
+        </scene>
+        <!--Screen Edge-->
+        <scene sceneID="vl7-XL-xlr">
+            <objects>
+                <viewController title="Screen Edge" id="co3-qi-dSm" customClass="ScreenEdgeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="M7a-FP-qI4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Qx-Wm-DO2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Edge" image="item6" id="Hfc-Jb-Kvj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EDb-b1-0kc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1076" y="-600"/>
         </scene>
         <!--Pan-->
         <scene sceneID="HUy-yR-DsD">
@@ -152,5 +169,6 @@
         <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
         <image name="item5" width="30" height="30"/>
+        <image name="item6" width="30" height="30"/>
     </resources>
 </document>
