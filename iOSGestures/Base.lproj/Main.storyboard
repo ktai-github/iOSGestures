@@ -39,14 +39,24 @@
                     <view key="view" contentMode="scaleToFill" id="M7a-FP-qI4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VgN-7R-Qsf">
+                                <rect key="frame" x="280" y="220" width="320" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Qx-Wm-DO2"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Edge" image="item6" id="Hfc-Jb-Kvj"/>
+                    <connections>
+                        <outlet property="edgeView" destination="VgN-7R-Qsf" id="ynk-08-kSh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EDb-b1-0kc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1076" y="-600"/>
+            <point key="canvasLocation" x="-1076.25" y="-600"/>
         </scene>
         <!--Pan-->
         <scene sceneID="HUy-yR-DsD">
